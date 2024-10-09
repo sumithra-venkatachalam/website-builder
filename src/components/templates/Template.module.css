@@ -1,0 +1,74 @@
+.Header {
+    background-color: rgb(238, 236, 236);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.MainContent {
+    padding: 30px;
+    width: calc(100vw - 200px);
+    height: calc(100vh - 160px);
+    background-color: rgb(246, 243, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Footer {
+    color: rgb(235, 230, 230);
+    background-color: rgb(13, 6, 6);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+.AppTitle {
+    color: rgb(23, 23, 90);
+    font-weight: 700;
+}
+.MenuItem {
+    color: rgb(12, 12, 135);
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.PotImg {
+  height: 450px;
+  width: 350px;
+  border-radius: 6px;
+  margin-left: 30px;
+}
+.Title {
+    margin: 2px;
+    font-weight: 600;
+    color: rgb(12, 12, 135);
+    font-size: 40px;
+}
+.SubTitle {
+    width: 400px;
+    font-size: 12px;
+    color: rgb(163, 161, 161);
+    line-height: 1.5;
+}
+.ExploreButton, .LearnButton {
+    outline: none;
+    border: none;
+    height: 40px;
+    margin-right: 14px;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 0px 14px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.ExploreButton {
+    background-color: rgb(13, 13, 107);
+    color: white;
+}
+.LearnButton {
+    color: black;
+    background-color: rgb(224, 221, 221);
+}

@@ -1,0 +1,45 @@
+.DraggableButton {
+  outline: none;
+  border: none;
+  height: 40px;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 0px 14px;
+  cursor: pointer;
+  background-color: rgb(13, 13, 107);
+  color: white;
+}
+.DraggableText {
+  margin: 0px;
+}
+.DroppableArea {
+  flex-grow: 1;
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+  min-height: 100vh;
+}
+.DroppedElement {
+  margin: 10px 0;
+  position: relative;
+}
+.DroppedElement button,
+.DroppedElement p,
+.DroppedElement img {
+  margin-right: 10px;
+}
+.DroppedElement input {
+  margin-right: 10px;
+}
+.DraggableDelete {
+  display: none;
+}
+.DroppedElement:hover .DraggableDelete {
+  display: block;
+}
+.DraggableDelete {
+  color: red;
+  position: absolute;
+  top: -24px;
+  right: 4px;
+  cursor: pointer;
+}

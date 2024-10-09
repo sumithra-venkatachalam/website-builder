@@ -1,0 +1,22 @@
+.DraggableItem {
+  padding: 6px 10px;
+  margin: 5px 0;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(226, 223, 223);
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.Sidebar {
+  width: 200px;
+  padding: 0px 20px;
+  background-color: #f4f4f4;
+  border-right: 1px solid rgb(248, 244, 244);
+}
+.Sidebar h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  margin-top: 10px;
+}
